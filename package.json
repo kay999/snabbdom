@@ -51,6 +51,7 @@
     "compile-es": "tsc --outDir es --module es6 --moduleResolution node",
     "compile-commonjs": "tsc --outDir ./",
     "prepublishOnly": "npm run compile",
+    "prepare": "npm run compile",
     "release-major": "xyz --repo git@github.com:paldepind/snabbdom.git --increment major",
     "release-minor": "xyz --repo git@github.com:paldepind/snabbdom.git --increment minor",
     "release-patch": "xyz --repo git@github.com:paldepind/snabbdom.git --increment patch"
